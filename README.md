@@ -30,7 +30,7 @@ Each module contains a `run()` function that demonstrates Rust syntax and behavi
 - ✅ `calculator` – Basic calculator (mini project)
 - ✅ `bankaccountsystem` – Bank account system (error handling & enums)
 - ✅ `todos_api` – Fetches JSONPlaceholder posts using reqwest; demonstrates async/await, error handling, and parallel HTTP requests with join_all
-- ✅ `scheduler` – Runs a scheduled background task using tokio::spawn; demonstrates async time-based execution, concurrent task spawning, and multi-threaded behavior with Tokio runtime
+- ✅ `scheduler` – runs a background async task that triggers every day at 11:16 AM using Tokio and Chrono for time checks. It demonstrates scheduling, async execution, and concurrent task handling in the Tokio runtime. When the time matches, it calls send_message() and prints a message.
 - ✅ `basic_apis` – Sets up basic GET and POST HTTP endpoints using Axum; demonstrates JSON serialization with Serde and route handling with async functions in a minimal API server
 
 
